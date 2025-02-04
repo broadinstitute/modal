@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://datamodel.terra.bio/BioCoreTerms"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://datamodel.terra.bio/BioCoreTerms">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal>Sid Cox</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Kathy Reinold</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/date"/>
+        <Literal></Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <IRI>https://github.com/DataBiosphere/terra-interoperability-model/blob/master/LICENSE</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Please cite The Broad Institute of Harvard and MIT, Data Sciences Platform.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0000029"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000002"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000003"/>
+        <Class IRI="#0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000004"/>
+        <Class IRI="#0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000005"/>
+        <Class IRI="#0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000006"/>
+        <Class IRI="#0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000007"/>
+        <Class IRI="#0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000008"/>
+        <Class IRI="#0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000009"/>
+        <Class IRI="#0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000010"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000011"/>
+        <Class IRI="#0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000012"/>
+        <Class IRI="#0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000013"/>
+        <Class IRI="#0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000014"/>
+        <Class IRI="#0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000015"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000016"/>
+        <Class IRI="#0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000017"/>
+        <Class IRI="#0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000018"/>
+        <Class IRI="#0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000019"/>
+        <Class IRI="#0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000020"/>
+        <Class IRI="#0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000021"/>
+        <Class IRI="#0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000022"/>
+        <Class IRI="#0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000023"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000024"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000025"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000026"/>
+        <Class IRI="#0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000027"/>
+        <Class IRI="#0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000028"/>
+        <Class IRI="#0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0000029"/>
+        <Class IRI="#0000026"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#0000001</IRI>
+        <Literal>This term attempts to characterize entities in terms of its channel of biological investigation.  For example, activities that produce such results include assays, analysis pipelines, lab tests, and imaging -- x-ray, CT-scan, or microscopy as well as the data these activities generate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000001</IRI>
+        <Literal>data modality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000001</IRI>
+        <Literal>biological data type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000001</IRI>
+        <Literal>data category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000001</IRI>
+        <Literal>Data modality describes the biological nature of information gathered as the result of an experimental activity, independent of the technology or methods used to produce the information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000002</IRI>
+        <Literal>epigenomic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000002</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the epigenome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000003</IRI>
+        <Literal>3D contact maps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000004</IRI>
+        <Literal>DNA binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000005</IRI>
+        <Literal>histone modification location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000006</IRI>
+        <Literal>transcription factor location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000007</IRI>
+        <Literal>DNA chromatin accessibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000008</IRI>
+        <Literal>DNA methylation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000009</IRI>
+        <Literal>RNA binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000010</IRI>
+        <Literal>genomic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000010</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the genome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000011</IRI>
+        <Literal>assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000012</IRI>
+        <Literal>exome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000012</IRI>
+        <Literal>WES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#0000013</IRI>
+        <Literal>Definition from Genotyping (operation_3196) in edamontology.org.  Need to add this as an equivalent class. Note that this is often performed by calling SNPs from assays.  It it intended to differentiate from larger scale genomic sequencing -- exome, genome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000013</IRI>
+        <Literal>genotyping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000013</IRI>
+        <Literal>Analyse DNA sequence data to identify differences between the genetic composition (genotype) of an individual compared to other individual&apos;s or a reference sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000014</IRI>
+        <Literal>whole genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000014</IRI>
+        <Literal>WGS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000015</IRI>
+        <Literal>imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000016</IRI>
+        <Literal>electrophysiology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000017</IRI>
+        <Literal>medical imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000018</IRI>
+        <Literal>CT scan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#0000019</IRI>
+        <Literal>Is this an Imaging technology or should we have a category for lab tests and consider this a Lab Test or is it a type of assay?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000019</IRI>
+        <Literal>electrocardiogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000019</IRI>
+        <Literal>ECG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000019</IRI>
+        <Literal>EKG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000020</IRI>
+        <Literal>MRI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000020</IRI>
+        <Literal>magnetic resonance imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000021</IRI>
+        <Literal>X ray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#0000021</IRI>
+        <Literal>X-ray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000022</IRI>
+        <Literal>microscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000023</IRI>
+        <Literal>metabolomic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000023</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the metabolome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000024</IRI>
+        <Literal>microbiome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000024</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the microbiome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000025</IRI>
+        <Literal>proteomic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000025</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the proteome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000026</IRI>
+        <Literal>transcriptomic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000026</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of the transcriptome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000027</IRI>
+        <Literal>spatial transcriptomics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000028</IRI>
+        <Literal>transcriptomic nontargeted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000028</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of non-targeted elements the transcriptome, such as RNASeq.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0000029</IRI>
+        <Literal>transcriptomic targeted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#0000029</IRI>
+        <Literal>A property that indicates this entity is related to the biological investigation of targeted elements of the transcriptome, such as microRNA counts.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
