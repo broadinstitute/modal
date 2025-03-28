@@ -2,6 +2,7 @@
 Ontology for biological nature of information from an experimental activity, independent of method.
 
 Description
+
 Data modality describes the biological nature of information gathered as the result of an experimental activity, independent of the technology or methods used to produce the information.
 
 This ontology attempts to characterize entities in terms of the channel or mode of biological investigation. For example, activities that produce such results include assays, analysis pipelines, lab tests, and medical imaging -- x-ray, CT-scan, or microscopy as well as the data these activities generate.
